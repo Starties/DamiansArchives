@@ -121,7 +121,7 @@ export default function Home() {
       </header>
 
       {/* --- MAIN CONTENT --- */}
-      <main className="pt-40 md:pt-48 px-4 md:px-12 pb-32 max-w-[1920px] mx-auto relative z-30">
+      <main className="pt-40 md:pt-48 px-4 md:px-12 pb-32 max-w-1920px mx-auto relative z-30">
         
         {/* Loading State */}
         {loading && (
@@ -169,7 +169,7 @@ export default function Home() {
                       <span className="font-sh text-xs text-gray-600 group-hover:text-red-500 transition-colors">
                         FIG. {pic.id}
                       </span>
-                      <div className="h-[1px] flex-grow bg-gray-800 mx-2 group-hover:bg-red-900/30 transition-colors" />
+                      <div className="h-1px grow bg-gray-800 mx-2 group-hover:bg-red-900/30 transition-colors" />
                       <span className="font-sh text-[10px] text-gray-700">
                         [RESTRICTED]
                       </span>
