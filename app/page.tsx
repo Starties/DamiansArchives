@@ -5,7 +5,7 @@ import Papa from 'papaparse';
 
 // --- CONFIGURATION ---
 // PASTE YOUR GOOGLE SHEET CSV LINK HERE
-const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTiUD07fPcFA9zPES-HKKCs-BC8GZ223iKxzr2bJeLX_YX6cS5YpKD8Y97oPv-NZpCxZUrsXdo8pWyV/pubhtml';
+const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTiUD07fPcFA9zPES-HKKCs-BC8GZ223iKxzr2bJeLX_YX6cS5YpKD8Y97oPv-NZpCxZUrsXdo8pWyV/pub?gid=0&single=true&output=csv';
 
 type ArchiveImage = {
   id: string;
